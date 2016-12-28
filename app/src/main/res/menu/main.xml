@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+    <item android:id="@+id/file"
+        android:title="TEXT COLOR" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/itmRed"
+                android:title="RED" />
+            <item android:id="@+id/itmGreen"
+                android:title="GREEN" />
+            <item android:id="@+id/itmBlue"
+                android:title="BLUE" />
+        </menu>
+    </item>
+</menu>
